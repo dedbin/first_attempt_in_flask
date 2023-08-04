@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<meta charset=utf-8>
+<html>
+<head>
+    <title>Список пород собак</title>
+</head>
+<body>
+    <h1>Список пород собак</h1>
+    <ul>
+    {% for breed in breeds %}
+        <li>{{ breed }}</li>
+    {% endfor %}
+    </ul>
+</body>
+</html>
